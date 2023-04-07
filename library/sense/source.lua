@@ -532,7 +532,7 @@ function InstanceObject:Render()
 end
 
 -- interface
-local EspInterface = {
+getgenv().Options = {
 	_hasLoaded = false,
 	_objectCache = {},
 	whitelist = {},
